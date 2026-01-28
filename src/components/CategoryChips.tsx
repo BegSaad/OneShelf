@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const App = () => {
+const CategoryChips = () => {
   return (
     <View>
-      <Text>App is saaad</Text>
+      <Text>CategoryChips</Text>
     </View>
   )
 }
 
-export default App
+export default CategoryChips
 
 const styles = StyleSheet.create({})

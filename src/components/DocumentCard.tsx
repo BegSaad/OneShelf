@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const App = () => {
+const DocumentCard = () => {
   return (
     <View>
-      <Text>App is saaad</Text>
+      <Text>DocumentCard</Text>
     </View>
   )
 }
 
-export default App
+export default DocumentCard
 
 const styles = StyleSheet.create({})

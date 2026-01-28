@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const App = () => {
+const SearchBar = () => {
   return (
     <View>
-      <Text>App is saaad</Text>
+      <Text>SearchBar</Text>
     </View>
   )
 }
 
-export default App
+export default SearchBar
 
 const styles = StyleSheet.create({})

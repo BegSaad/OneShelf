@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const App = () => {
+const EmptyState = () => {
   return (
     <View>
-      <Text>App is saaad</Text>
+      <Text>EmptyState</Text>
     </View>
   )
 }
 
-export default App
+export default EmptyState
 
 const styles = StyleSheet.create({})
