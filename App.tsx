@@ -1,11 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
+import { Provider as PaperProvider } from 'react-native-paper';
+import { NavigationContainer } from '@react-navigation/native';
+import AppNavigator from './src/navigation/AppNavigator';
+
 import React from 'react'
 
 const App = () => {
   return (
-    <View>
-      <Text>App is saaad</Text>
-    </View>
+   <PaperProvider>
+    <NavigationContainer>
+     <AppNavigator />
+    </NavigationContainer>
+   </PaperProvider>
   )
 }
 
