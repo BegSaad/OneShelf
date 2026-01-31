@@ -5,12 +5,12 @@ import React from 'react'
 
 
 
-const Stack = createNativeStackNavigator()
+const Stack = createNativeStackNavigator();
 const AppNavigator = () => {
   return (
-    <View>
-      <Text>AppNavigator</Text>
-    </View>
+   <Stack.Navigator screenOptions={{headerShown:false}}>
+    <Stack.Screen name="Inbox" component={InboxScreen}/>
+   </Stack.Navigator>
   )
 }
 
